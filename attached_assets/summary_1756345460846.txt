@@ -1,0 +1,49 @@
+**Summary**
+
+Oracle Database 19c, the latest release of the Oracle Database 12c family, provides a multi-model enterprise-class database for various use cases. It includes enhancements in performance, high availability, security, data warehousing/big data, and application development.
+
+**Multitenant Architecture**
+
+* Simplifies consolidation and offers high-density schema-based consolidation without requiring application changes.
+* Consolidate multiple databases into a multitenant container database (CDB) to share resources and enable efficient database management.
+
+**Performance**
+
+* Automatic Indexing creates and manages indexes based on data access patterns and optimizes performance.
+* Oracle Database In-Memory accelerates analytic queries by orders of magnitude and improves transactional performance.
+* MemOptimized Rowstore enhances performance for key-value lookups based on primary keys.
+* Real-Time Statistics Collection eliminates the need to compromise between statistics quality and data freshness.
+* Quarantine SQL Statements protect performance from runaway SQL statements.
+
+**High Availability**
+
+* Real Application Clusters (RAC) provide high availability by running database instances on multiple servers in a cluster.
+* Automatic Storage Management (ASM) offers data mirroring and striping for increased performance and protection.
+* Recovery Manager (RMAN) manages backup, restore, and recovery processes.
+* Oracle Secure Backup (OSB) provides scalable backup management for database and file system data.
+* Flashback enables reversing human errors by undoing mistakes like accidental table drops.
+* Active Data Guard (ADG) protects against site failures by maintaining standby databases.
+
+**Security**
+
+* Transparent Data Encryption safeguards data at rest and in backups.
+* Dynamic Data Masking enforces data redaction within the database to hide sensitive data.
+* Privilege Analysis helps implement least-privilege access policies.
+* Database Vault provides separation of duties and trusted-path access models.
+* Unified Audit offers policy-based and context-aware auditing.
+* Oracle Key Vault simplifies management of encryption keys and credentials.
+* Data Masking and Subsetting sanitizes data copies for non-production usage.
+
+**Data Warehousing and Big Data**
+
+* Supports relational and non-relational data, including JSON, XML, text, spatial, and graph data.
+* Oracle Big Data Platform provides integrated access to data stored in Oracle Database, Hadoop, and NoSQL.
+* Hybrid Partitioned Tables allow data to be partitioned and stored in both database and external locations.
+* Fast SQL Access for Relational, Hadoop, and NoSQL enables efficient querying across different data sources.
+* Comprehensive Analytic and Data Science Capabilities include analytic views, approximate queries, machine learning, and property graph analytics.
+
+**Application Development**
+
+* Integrates with popular application development frameworks and tools like Oracle Application Express (APEX), Oracle SQL Developer, and Oracle REST Data Services.
+* RESTful API services can be created easily using Oracle REST Data Services.
+* JSON support enables storage, querying, and processing of JSON data within the database.
